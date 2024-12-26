@@ -14,16 +14,14 @@ const Header: React.FC = () => {
   };
 
   return (
-    <header className="z-10 sticky font-bold font-avenir text-md top-12 opacity-90  bg-stone-100 dark:bg-neutral-950 p-4 flex justify-between items-center h-24">
+    <header className="z-10 sticky font-bold font-avenir text-md top-12 opacity-90  bg-stone-100 dark:bg-neutral-950 p-4 flex justify-between items-center h-24 md:h-32">
       <SpeedInsights/>
       <Analytics/>
       <div className={`basis-1/2 flex items-center ${isMenuOpen ? 'hidden' : ''}`}>
         <Link href="/">
-          <h1 className={`px-2 text-3xl font-bold align-middle ${isMenuOpen ? 'hidden' : ''}`}>LPSB <br></br> Robotics</h1>
-        </Link>
         <div className="hidden md:block logo w-72 p-4">
           <Image src={logo} alt="Powercut Robotics Team Logo" sizes="(max-width: 768px) 50vw, (max-width: 1200px) 33vw, 33vw" />
-        </div>
+        </div></Link>
       </div>
       <div className="md:basis-3/5 flex justify-end w-full">
         <div className={`w-full lg:w-auto ${isMenuOpen ? '' : 'hidden lg:flex'}`}>

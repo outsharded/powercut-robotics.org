@@ -26,9 +26,10 @@ const HomePage: React.FC = () => {
             <div className="w-full flex justify-center lg:h-[800px] 2xl:h-[1000px]">
               <Image className="rounded-lg object-cover object-top brightness-90 dark:opacity-95 opacity-100" src={side_pitch} alt="powercut team with awards"  sizes="(max-width: 768px) 80vw, (max-width: 1200px) 75vw, 80vw" priority />
               <div className="absolute text-center pt-2 w-full text-amber-50">
-                <h1 className="text-4xl md:text-5xl xl:text-7xl font-bold font-avenir">Team Powercut</h1>
-                <h1 className="text-3xl xl:text-4xl font-medium font-avenir invisible lg:visible">First Tech Challenge #25268 - UK 497</h1>
-            </div>
+                <h1 className="text-4xl md:text-5xl xl:text-7xl font-bold font-avenir ">Powercut Robotics</h1>
+                <div className='w-full'><h1 className="text-3xl xl:text-4xl  font-medium font-avenir invisible lg:visible line-clamp-1">First Tech Challenge #25268 - UK 497</h1></div>
+                
+              </div>
             </div>
 
           </div>
