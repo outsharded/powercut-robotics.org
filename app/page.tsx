@@ -53,7 +53,7 @@ const HomePage: React.FC = () => {
             <Image className="rounded-lg float-left w-2/5 m-3 aspect-[1/1] object-cover" src={backdrops} alt="robot in field" sizes="(max-width: 1024px) 40vw, 20vw" />
             <h1 className="text-4xl font-medium font-avenir p-2">Into The Deep</h1>
             <p className='p-2 text-lg font-small text-start'>Our scrimmage robot, was V1 of the season. We&apos;re redesigning for regionals to have a much more competitive robot.<br /> <br /> 
-            As a Championship Organisation, we host events. Our scrimmage on 5 December 2024 was attended by over 100 students. Our team delivered talks to help propel other teams. We look forward to welcoming teams again on the 22 March, at our regionals.</p>
+            As a Championship Organisation, we host events. Our scrimmage on 5 December 2024 was attended by over 100 students. Our team delivered talks to help propel other teams. We look forward to welcoming teams again at our regionals.</p>
           </div>
         
         </div>
